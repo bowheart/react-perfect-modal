@@ -1,0 +1,43 @@
+{
+  "name": "react-perfect-modal",
+  "version": "0.1.0",
+  "description": "A hyper-responsive modal component for React",
+  "main": "dist/react-perfect-modal.js",
+  "scripts": {
+    "build:umd": "webpack -o dist/react-perfect-modal.js --mode development",
+    "build:umd:min": "webpack -o dist/react-perfect-modal.min.js --mode production",
+    "dev": "npm run build:umd -- -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "centered",
+    "lightbox",
+    "modal",
+    "perfect",
+    "popup",
+    "react",
+    "responsive"
+  ],
+  "author": "Joshua Claunch",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@babel/preset-react": "^7.0.0-beta.46",
+    "@babel/preset-stage-2": "^7.0.0-beta.46",
+    "@babel/register": "^7.0.0-beta.46",
+    "babel-loader": "^8.0.0-beta.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react-transition-group": "^2.3.1"
+  }
+}
